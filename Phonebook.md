@@ -11,10 +11,15 @@ Create a web page for a phonebook application. This Web page can be written in a
 
 ** Apply validation on each field (use Regex whenever applicable):
 *** Either first name or Last name has to be filled. If both are empty, show an error
+
 *** Phone number can't be empty
+
 *** Phone number has to be only numbers
+
 *** Phone number has to be a valid phone number based on the country you live in (min/max length, replace first 00 with +)
+
 *** Email has to be a valid email
+
 *** Birth Date has to be a valid date
 
 ## Level 1
