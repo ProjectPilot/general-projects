@@ -16,3 +16,7 @@ Design the application in whatever structure you can
 
 ## Level 1
 Design the structure in OOP
+
+## Level 2
+* Using any AI library, determine wether the text is a "meaningful" text or not.
+* Determine whether the text is "positive" or "negative"
