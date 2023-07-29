@@ -17,3 +17,4 @@ Note: password should not be shown in plain text
   * compares the encrypted passwords and if they match, returns true. Otherwise return false
 * Change UI so that if the backend returns false, stay on the page and show an error message: "Login failed"
 
+WIP: Add roles and authorisation
