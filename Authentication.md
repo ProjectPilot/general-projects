@@ -17,4 +17,11 @@ Note: password should not be shown in plain text
   * compares the encrypted passwords and if they match, returns true. Otherwise return false
 * Change UI so that if the backend returns false, stay on the page and show an error message: "Login failed"
 
-WIP: Add roles and authorisation
+## Level 2
+Add Roles
+* Define 3 roles in the database: Admin, Manager, User
+* Change your application so that when the user logs in, based on the role they have they will see different messages. You can simply say: "Hi <user>! You are <role>"
+* After the login,
+ * Admin can see a link(dummy for now) to see all users and another link (dummy) to see website stats
+ * Manager can a link to see all users and a link to see log in stats by users
+ * User can only see their name and the message mentioned above.
